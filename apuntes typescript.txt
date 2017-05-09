@@ -1,0 +1,9 @@
+Para instalar en la máquina:
+npm install -g typescript
+
+Para compilar:
+tsc nombrearchivo.ts
+
+para que lo convierta siempre el js cada vez que se salva el ts:
+tsc nombrearchivo.ts -w
+
