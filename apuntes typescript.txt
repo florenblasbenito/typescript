@@ -7,3 +7,5 @@ tsc nombrearchivo.ts
 para que lo convierta siempre el js cada vez que se salva el ts:
 tsc nombrearchivo.ts -w
 
+para crear el archivo tsconfig.json:
+tsc -init
