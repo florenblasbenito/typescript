@@ -1,2 +1,6 @@
 console.log("hola");
-//# sourceMappingURL=app.js.map
+var holaesSupermantwofdsafd = true;
+var batman = "Batman";
+var derrotas;
+derrotas = true;
+console.log();
