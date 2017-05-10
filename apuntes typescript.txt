@@ -1,4 +1,4 @@
-Para instalar en la máquina:
+Para instalar en la mï¿½quina:
 npm install -g typescript
 
 Para compilar:
@@ -9,3 +9,5 @@ tsc nombrearchivo.ts -w
 
 para crear el archivo tsconfig.json:
 tsc -init
+
+Con Ctrl+Shift+B en visual studio te compila todos los archivos .ts y te crear el .map
