@@ -4,3 +4,4 @@ var batman = "Batman";
 var derrotas;
 derrotas = true;
 console.log();
+//# sourceMappingURL=app.js.map
