@@ -29,7 +29,15 @@ let bumblebee:Auto = {
 
 
 // Villanos debe de ser un arreglo de objetos personalizados
-let villanos = [{
+type Villano = {
+  nombre: string,
+  edad: number,
+  mutante: boolean,
+
+}
+
+
+let villanos: Villano[] = [{
   nombre:"Lex Luthor",
   edad: 54,
   mutante:false
