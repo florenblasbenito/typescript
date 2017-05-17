@@ -53,6 +53,18 @@ let villanos: Villano[] = [{
 
 // Multiples tipos
 // cree dos tipos, uno para charles y otro para apocalipsis
+type Charles = {
+  poder: string,
+  estatura: number,
+
+};
+
+type Apocalipsis = {
+ lider: boolean,
+ miembros: string[],
+}
+
+
 let charles = {
   poder:"psiquico",
   estatura: 1.78
@@ -64,7 +76,7 @@ let apocalipsis = {
 }
 
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
-let mystique;
+let mystique: Charles|Apocalipsis;
 
 mystique = charles;
 mystique = apocalipsis;
